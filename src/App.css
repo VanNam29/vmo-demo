@@ -1,0 +1,48 @@
+.parallax {
+  background-image: url("https://dulich9.com/wp-content/uploads/2019/12/mon-an-truyen-thong-ngay-tet-1.jpg");
+  min-height: 280px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-search {
+  background-image: url("http://image.slidesharecdn.com/bnscmthcvitnam-150926113633-lva1-app6892/95/bn-sc-m-thc-vit-nam-1-638.jpg?cb=1443267648");
+  min-height: 220px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-product-detail {
+  background-image: url("https://giaydantuonganhtuan.vn/upload_images/images/vn-029.jpg");
+  min-height: 220px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-card {
+  background-image: url("https://meta.vn/Data/image/2020/11/14/tat-nien-la-gi-al.jpg");
+  min-height: 220px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zoom-image {
+  transition: transform .2s;
+  width: 250px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom-image:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
